@@ -36,27 +36,24 @@ return (
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
-      /* THESE ARE THE KEY LINES */
-      width: '100vw',         // Full Viewport Width
-      minHeight: '100vh',     // Full Viewport Height
-      display: 'flex',        // Enables Flexbox
-      alignItems: 'center',    // Centers vertically
-      justifyContent: 'center',// Centers horizontally
-      /* ----------------------- */
+      width: '100vw',         
+      minHeight: '100vh',    
+      display: 'flex',        
+      alignItems: 'center',    
+      justifyContent: 'center',
       fontFamily: 'sans-serif',
       margin: 0,
       padding: 0,
       boxSizing: 'border-box'
     }}
   >
-    {/* Your Card Container */}
     <div style={{
       backgroundColor: 'rgba(255, 255, 255, 0.2)',
       backdropFilter: 'blur(10px)',
       padding: '40px',
       borderRadius: '24px',
-      width: '90%',           // Responsive width for mobile
-      maxWidth: '400px',      // Limits width on desktop
+      width: '90%',           
+      maxWidth: '400px',      
       boxShadow: '0 10px 30px rgba(0,0,0,0.5)',
       color: 'white'
     }}>
@@ -74,7 +71,7 @@ return (
             borderRadius: '10px',
             border: 'none',
             outline: 'none',
-            fontSize: '16px' // Prevents iOS auto-zoom on focus
+            fontSize: '16px' 
           }}
         />
 
